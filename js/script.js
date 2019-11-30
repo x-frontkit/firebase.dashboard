@@ -32,7 +32,7 @@ var Dashboard = function () {
         if (self.token()) {
             return self.token();
         } else {
-            self.token(new Firebase('https://bahattintest.firebaseio.com/'));
+            self.token(new Firebase('https://e-bookdigital.firebaseio.com/'));
             return self.token();
         }
     };
